@@ -3,7 +3,7 @@ import axios from "axios";
 import cookie from "js-cookie";
 import { useRouter } from "next/router";
 import Login from "../pages/Login/index";
-
+import Header from "../Components/Header/Header";
 export default function Home() {
   const router = useRouter();
 
@@ -29,6 +29,6 @@ export default function Home() {
   }, []);
 
   return (
-     <Login/>
+    <Header/>
   );
 }

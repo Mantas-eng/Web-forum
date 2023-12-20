@@ -1,6 +1,16 @@
+*::before{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
 body{
 background: linear-gradient(#7bed9f, #D3D3D3);  
 height: 100vh;
-
-
 }

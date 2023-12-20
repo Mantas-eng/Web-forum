@@ -1,6 +1,3 @@
-
-
-
 .container{
     display: flex;
     flex-direction: column;
@@ -90,7 +87,15 @@
     background: linear-gradient(45deg, rgb(44, 182, 133), rgb(67, 208, 158));
     border-style: none;
   }
-  
+  .header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    background: red;
+  }
   .submit:hover{
     
       color: rgb(101, 224, 146);
