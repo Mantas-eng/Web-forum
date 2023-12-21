@@ -1,6 +1,6 @@
 .wrapper{
  max-width: 1200px;
- margin: 0 auto;
+ margin: 2rem auto;
 
 }
 .Navigation{
@@ -20,17 +20,38 @@ gap: 3rem;
  .logo{
     margin-top: 3rem;
  }
+
 .topnav{
     overflow: hidden;
     background-color: #e9e9e9;
 }
 
+.nav_link{
+    color:rgb(58, 104, 88);
+}
+
+.btnLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    color:#fff;
+    border-radius: 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    background: linear-gradient(45deg, rgb(44, 182, 133), rgb(67, 208, 158));
+    border-style: none;
+}
+.btnLogin:hover{
+    color: blue;
+}
 .navbar{
     display: flex;
-    align-items: center;
-        
+    align-items: center; 
     margin: auto;
-    padding: 4rem;
+    padding: 10rem;
 }
 .searchBar{
     display: flex;

@@ -13,9 +13,9 @@ const Header = () => {
             <nav className={styles.Navigation}>    
             <Image className={styles.logo} src={backgroundImage} alt='bGImg'/>        
             <ul className={styles.nav__menu}>
-                <li className="nav__item"><a href="#" className="nav_link">Home</a></li>
-                <li className="nav__item"><a href="#" className="nav_link">About</a></li>
-                <li className="nav__item"><a href="#" className="nav_link">Contacts</a></li>
+                <li className="nav__item"><a href="#" className={styles.nav_link}>Home</a></li>
+                <li className="nav__item"><a href="#" className={styles.nav_link}>About</a></li>
+                <li className="nav__item"><a href="#" className={styles.nav_link}>Contacts</a></li>
                 <button className={styles.btnLogin}>Login</button>
             </ul>
             </nav>
