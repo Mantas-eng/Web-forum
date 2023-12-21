@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import Login from "../pages/Login/index";
 import Header from "../Components/Header/Header";
 import Forum from "../Components/Forum/Forum";
+import ForumList from "../Components/Forum-List/Forum-List";
 export default function Home() {
   const router = useRouter();
 
@@ -30,6 +31,6 @@ export default function Home() {
   }, []);
 
   return (
-    <Forum/>
+    <ForumList/>
   );
 }

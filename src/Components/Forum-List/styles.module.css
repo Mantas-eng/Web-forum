@@ -1,0 +1,41 @@
+.container{
+    background-color: #fefefe;
+    margin:10px;
+    padding: 50px;
+}
+
+.textarea{
+    width: 80%;
+    height: 80px;
+}
+.btncommit{
+    display:block;
+    margin: 16px 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.commentbox .user{
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px #0002;
+}
+.commentbox .image img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+
+.comment-box .comment{ 
+    background: #eee;
+    height: 152px;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 0 0.5px #0003;
+}
